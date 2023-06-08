@@ -29,8 +29,7 @@ struct CharacterCellView: View {
         
         HStack {
             
-            Image("")
-                .renderImage(url: URL(string: image)!)
+            URLImage(imageUrl: URL(string: image)!)
                 .frame(width: imageSize, height: imageSize)
                 .clipShape(RoundedRectangle(cornerRadius: cornerRadius))
                 .shadow(color: .gray, radius: 2, x: 0, y: 2)

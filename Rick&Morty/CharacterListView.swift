@@ -13,9 +13,8 @@ struct CharacterListView: View {
     
     @Environment(\.colorScheme) var currentMode
     
-    
     var body: some View {
-        VStack {
+        NavigationStack {
             
             List {
                 

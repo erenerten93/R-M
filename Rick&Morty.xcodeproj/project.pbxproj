@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3B6F61C12A31E503003904A8 /* GetAllCharacterUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F61C02A31E503003904A8 /* GetAllCharacterUseCase.swift */; };
 		3B6F61C32A31E518003904A8 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F61C22A31E518003904A8 /* ImageExtension.swift */; };
+		3B6F61C72A31E955003904A8 /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F61C62A31E955003904A8 /* URLImage.swift */; };
 		3B9282B32A31D95300C9CBDC /* Rick_MortyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9282B22A31D95300C9CBDC /* Rick_MortyApp.swift */; };
 		3B9282B52A31D95300C9CBDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9282B42A31D95300C9CBDC /* ContentView.swift */; };
 		3B9282B72A31D95400C9CBDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B9282B62A31D95400C9CBDC /* Assets.xcassets */; };
@@ -59,6 +60,7 @@
 /* Begin PBXFileReference section */
 		3B6F61C02A31E503003904A8 /* GetAllCharacterUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllCharacterUseCase.swift; sourceTree = "<group>"; };
 		3B6F61C22A31E518003904A8 /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
+		3B6F61C62A31E955003904A8 /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
 		3B9282AF2A31D95300C9CBDC /* Rick&Morty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rick&Morty.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B9282B22A31D95300C9CBDC /* Rick_MortyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rick_MortyApp.swift; sourceTree = "<group>"; };
 		3B9282B42A31D95300C9CBDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				3B9282E22A31D9EE00C9CBDC /* Character.swift */,
 				3B9282F82A31E08E00C9CBDC /* CharacterRepository.swift */,
 				3B9283022A31E1F700C9CBDC /* ServerBaseArrayResponse.swift */,
+				3B6F61C62A31E955003904A8 /* URLImage.swift */,
 				3B9282F62A31E07400C9CBDC /* GetCharacterDetailUseCase.swift */,
 				3B9282EE2A31DFC600C9CBDC /* CharacterDetailViewModel.swift */,
 				3B9282E62A31DD4E00C9CBDC /* CharacterListView.swift */,
@@ -331,6 +334,7 @@
 				3B9283012A31E1DB00C9CBDC /* Constants.swift in Sources */,
 				3B92830D2A31E29000C9CBDC /* CharacterCellView.swift in Sources */,
 				3B9282F12A31DFE000C9CBDC /* CharacterDetailView.swift in Sources */,
+				3B6F61C72A31E955003904A8 /* URLImage.swift in Sources */,
 				3B9282F32A31E01800C9CBDC /* CharacterDetailItemView.swift in Sources */,
 				3B9282E72A31DD4E00C9CBDC /* CharacterListView.swift in Sources */,
 				3B9282ED2A31DF8A00C9CBDC /* ListHeaderView.swift in Sources */,
@@ -517,6 +521,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -546,6 +551,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
